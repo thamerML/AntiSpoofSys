@@ -20,9 +20,6 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 - **Real-Time Performance:**
   - Provides fast and reliable detection and authentication.
 
-- **Hardware Integration:**
-  - Compatible with servo motors or gate actuators controlled via Raspberry Pi/Arduino.
-
 ---
 
 ## Project Overview
