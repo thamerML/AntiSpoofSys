@@ -25,10 +25,21 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 ## Model Overview
 
 ### **Requirements:**
-- * Python3.9
--  PostgreSQL
-- **GPU:** Geforce RTX 2080Ti
-- **Machine Learning Models:** Pretrained and retrained for Saudi-specific requirements
+-  Python3.9
+-  tensorflow==2.16.1
+-  torch==2.3.0
+-  onnx==1.16.0
+-  onnxruntime==1.17.3
+-  opencv-python==4.9.0.80
+-  scikit-image==0.23.2
+-  albumentations==1.4.6
+-  numpy==1.26.4
+-  scipy==1.13.0
+-  psycopg2-binary==2.9.9
+-  matplotlib==3.8.4
+-  insightface==0.7.3
+-  rich==13.7.1
+-  tqdm==4.66.4
 
 ### **How It Works:**
 1. Captures video input or live stream to detect vehicles, license plates, and faces.
