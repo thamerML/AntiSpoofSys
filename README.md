@@ -8,14 +8,14 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 
 - **License Plate Recognition:**
   - Detects and authenticates license plates, including Saudi-specific formats.
-  - Incorporates anti-spoofing measures to prevent fake plate attempts.
+ 
 
 - **Vehicle Classification:**
-  - Identifies vehicle types (e.g., sedan, SUV, truck) for customized access rules.
+  - Identifies vehicle make and model (e.g., Toyota Camry, Honda Accord, Ford Crown Victoria).
 
 - **Facial Recognition:**
   - Authenticates drivers using advanced facial recognition.
-  - Prevents spoofing through photo or video attacks.
+
 
 - **Real-Time Performance:**
   - Provides fast and reliable detection and authentication.
@@ -28,16 +28,15 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 ## Project Overview
 
 ### **Technologies Used:**
-- **Programming Language:** Python
+- **Programming Language:** Python3.9
 - **Database:** PostgreSQL
-- **Hardware:** Raspberry Pi, Arduino, Servo Motor
+- **Hardware:** ESP32, Servo Motor
 - **Machine Learning Models:** Pretrained and retrained for Saudi-specific requirements
 
 ### **How It Works:**
-1. Captures video input to detect vehicles and license plates.
-2. Verifies license plates against a database.
-3. Identifies and authenticates the driver's face.
-4. Opens the gate for verified entries.
+1. Captures video input or live stream to detect vehicles, license plates, and faces.
+2. Verifies the 3 features against a database.
+3. Open the gate for verified entries.
 
 ---
 
