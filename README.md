@@ -39,7 +39,7 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 
 ## Demo
 
-![AntiSpoofSys Demo](result.gif)
+![AntiSpoofSys Demo](resultvid.mp4)
 
 
 
