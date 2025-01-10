@@ -30,7 +30,7 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 ### **Technologies Used:**
 - **Programming Language:** Python3.9
 - **Database:** PostgreSQL
-- **Hardware:** ESP32, Servo Motor
+- **GPU:** Geforce RTX 2080Ti
 - **Machine Learning Models:** Pretrained and retrained for Saudi-specific requirements
 
 ### **How It Works:**
