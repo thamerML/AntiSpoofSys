@@ -95,13 +95,6 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
    python3 main.py
    ```
 
----
-
-## Usage
-
-1. Add known vehicles and drivers to the database.
-2. Place the system at the gate and start the application.
-3. The gate will open for verified vehicles and drivers.
 
 ---
 
@@ -117,6 +110,6 @@ Contributions are welcome! Follow these steps:
 ## Contact
 
 For questions or suggestions, feel free to reach out to the project team:
-- **Thamer Alghonaim**
-- **Faisal Alsultan**
-- **Bandar Alwazzan**
+- **Thamer Alghonaim**: thamer.alghonaim@gmail.com
+- **Muhannad Alsultan**: muhannad.a.alsultan@gmai.com
+- **Faisal Alasakakir**: alsakakir.faisal@gmail.com
