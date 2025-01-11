@@ -83,11 +83,14 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
     ```bash
     psql -U <username> -d <database_name> -f database.sql
     ```
-    - <username>: Your PostgreSQL username.
-    - <database_name>: Desired database name.
+
+    - `<username>`: Your PostgreSQL username.
+    - `<database_name>`: Desired database name.
+    
 
 
-5. **Run the Application:**
+
+5. **Run the model:**
    ```bash
    python3 main.py
    ```
