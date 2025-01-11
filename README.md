@@ -44,7 +44,7 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 ### **How It Works:**
 1. Captures video input or live stream to detect vehicles, license plates, and faces.
 2. Verifies the 3 features against a database.
-3. Open the gate for verified entries.
+3. Opens the gate for verified entries.
 
 ---
 
@@ -75,11 +75,21 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 
 4. **Set Up the Database:**
    - Ensure PostgreSQL is installed and running.
-   - Create a database and configure connection settings in `config.py`.
+   - Create a database using SQL (see database.sql file for reference)
+   ```bash
+     psql -U <username> -c "CREATE DATABASE <database_name>;"
+   ```
+   - Execute the provided SQL file to initialize the database:
+    ```bash
+    psql -U <username> -d <database_name> -f database.sql
+    ```
+    - <username>: Your PostgreSQL username.
+    - <database_name>: Desired database name.
+
 
 5. **Run the Application:**
    ```bash
-   python main.py
+   python3 main.py
    ```
 
 ---
@@ -98,12 +108,6 @@ Contributions are welcome! Follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
 3. Submit a pull request with a detailed explanation.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
