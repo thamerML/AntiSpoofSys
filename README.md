@@ -72,8 +72,11 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
    ```bash
    pip install -r requirements.txt
    ```
+4. **Retrain License Plate Model:**
 
-4. **Set Up the Database:**
+jfeifej
+
+5. **Set Up the Database:**
    - Ensure PostgreSQL is installed and running.
    - Create a database using SQL (see database.sql file for reference)
    ```bash
@@ -90,7 +93,7 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 
 
 
-5. **Run the model:**
+6. **Run the model:**
    ```bash
    python3 main.py
    ```
