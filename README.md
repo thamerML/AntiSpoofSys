@@ -77,10 +77,22 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
  ---
 ## Retrain License Plate Model
 - **License Plate Detection:**
-  - Gather your own dataset and put it into ^%$# folder
-  - Label each image with the X and Y coordinates of the license plate, as shown in the image below.
-  - ![Lable images](result.gif)
-
+  - Gather your own dataset of images of cars that have license plates on them and put it into ^%$# folder
+  - Label (rename) each image with the X and Y coordinates of the license plate, as shown in the image below.
+  - ![Lable images](image4.jpg)
+  - run 'MTCNN/data_set/preprocess.py' to split training data and validation data and put in "ccpd_train" and "ccpd_val" folders respectively.
+  - run 'MTCNN/data_preprocessing/assemble_Pnet_imglist.py'
+  - run 'MTCNN/train/Train_Pnet.py'
+    
+  - collect Pnet weights and run 'MTCNN/data_preprocessing/gen_Onet_train_data.py'
+  - run 'MTCNN/data_preprocessing/assemble_Onet_imglist.py'
+  - run 'MTCNN/train/Train_Onet.py'
+- **License Plate Recognition:**
+  - Gather your own dataset of images of pure license plates and put them in folder !@#$%.
+  - image size must be 94X24
+  - rename each image to the license plate characters (e.g., ABC1234.jpg)
+  - run 'LPRNet/data/preprocess.py' to prepare the dataset
+  - run 'LPRNet/LPRNet_Train.py' for training
 
 ---
 
