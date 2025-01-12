@@ -99,13 +99,15 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 ## Set Up the Database
    - Ensure PostgreSQL is installed and running.
    - Create a database using SQL (see database.sql file for reference)
+     
    ```bash
      psql -U <username> -c "CREATE DATABASE <database_name>;"
    ```
    - Execute the provided SQL file to initialize the database:
-    ```bash
+     
+  ```bash
     psql -U <username> -d <database_name> -f database.sql
-    ```
+  ```
 
     - `<username>`: Your PostgreSQL username.
     - `<database_name>`: Desired database name.
