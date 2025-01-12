@@ -72,11 +72,19 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
    ```bash
    pip install -r requirements.txt
    ```
-4. **Retrain License Plate Model:**
 
-jfeifej
 
-5. **Set Up the Database:**
+ ---
+## Retrain License Plate Model
+- **License Plate Detection:**
+  - Gather your own dataset and put it into ^%$# folder
+  - Label each image with the X and Y coordinates of the license plate, as shown in the image below.
+  - ![Lable images](result.gif)
+
+
+---
+
+## Set Up the Database
    - Ensure PostgreSQL is installed and running.
    - Create a database using SQL (see database.sql file for reference)
    ```bash
@@ -90,10 +98,10 @@ jfeifej
     - `<username>`: Your PostgreSQL username.
     - `<database_name>`: Desired database name.
     
+---
 
 
-
-6. **Run the model:**
+## Run the model
    ```bash
    python3 main.py
    ```
