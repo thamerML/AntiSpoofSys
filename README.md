@@ -79,7 +79,7 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
 - **License Plate Detection:**
   - Gather your own dataset of images of cars that have license plates on them and put it into 'ccpd' folder
   - Label (rename) each image with the X and Y coordinates of the license plate, as shown in the image below.
-  - ![Lable images](image4.jpg)
+  - ![Lable images](screenshot.png)
   - run 'MTCNN/data_set/preprocess.py' to split training data and validation data and put in "ccpd_train" and "ccpd_val" folders respectively.
   - run 'MTCNN/data_preprocessing/assemble_Pnet_imglist.py'
   - run 'MTCNN/train/Train_Pnet.py'
