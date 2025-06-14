@@ -77,16 +77,21 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
  ---
 ## Retrain License Plate Model
 - **License Plate Detection:**
-  - Gather your own dataset of images of cars that have license plates on them and put it into 'ccpd' folder
+  - Gather your own dataset of images of cars that have license plates on them and put it into 'License_Plate_Detection_Dataset' folder
   - Label (rename) each image with the X and Y coordinates of the license plate, as shown in the image below.
   - ![Lable images](Screenshot.png)
-  - run 'MTCNN/data_set/preprocess.py' to split training data and validation data and put in "ccpd_train" and "ccpd_val" folders respectively.
-  - run 'MTCNN/data_preprocessing/assemble_Pnet_imglist.py'
-  - run 'MTCNN/train/Train_Pnet.py'
+  - Run 'MTCNN/data_set/preprocess.py' to split training data and validation data and put in "lpd_train" and "lpd_val" folders, respectively.
+  - Run 'MTCNN/data_preprocessing/assemble_Pnet_imglist.py'
+  - Run 'MTCNN/data_preprocessing/gen_Pnet_train_data.py'
+  - Run 'MTCNN/train/Train_Pnet.py'
     
-  - collect Pnet weights and run 'MTCNN/data_preprocessing/gen_Onet_train_data.py'
-  - run 'MTCNN/data_preprocessing/assemble_Onet_imglist.py'
+  - Run 'assemble_Onet_imglist.py'
+  - Run 'MTCNN/data_preprocessing/assemble_Onet_imglist.py'
+  - Run 'MTCNN/data_preprocessing/get_Onet_train_data.py'
   - run 'MTCNN/train/Train_Onet.py'
+ 
+  - Collect pnet_Weights & onet_Weights and put them into the weights folder.
+
 - **License Plate Recognition:**
   - Gather your own dataset of images of pure license plates and put them in folder !@#$%.
   - image size must be 94X24
