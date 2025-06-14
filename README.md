@@ -14,7 +14,7 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
   - Identifies vehicle make and model (e.g., Toyota Camry, Honda Accord, Ford Crown Victoria).
 
 - **Facial Recognition:**
-  - Authenticates drivers using advanced facial recognition.
+  - Authenticates drivers using advanced facial recognition (InsightFace).
 
 
 - **Real-Time Performance:**
@@ -83,21 +83,22 @@ AntiSpoofSys is an AI-powered vehicle gate access system designed to enhance sec
   - Run 'MTCNN/data_set/preprocess.py' to split training data and validation data and put in "lpd_train" and "lpd_val" folders, respectively.
   - Run 'MTCNN/data_preprocessing/assemble_Pnet_imglist.py'
   - Run 'MTCNN/data_preprocessing/gen_Pnet_train_data.py'
+  - Note: Repeat this process for Train and Validation.
   - Run 'MTCNN/train/Train_Pnet.py'
     
-  - Run 'assemble_Onet_imglist.py'
   - Run 'MTCNN/data_preprocessing/assemble_Onet_imglist.py'
   - Run 'MTCNN/data_preprocessing/get_Onet_train_data.py'
-  - run 'MTCNN/train/Train_Onet.py'
+  - Note: Repeat this process for Train and Validation.
+  - Run 'MTCNN/train/Train_Onet.py'
  
   - Collect pnet_Weights & onet_Weights and put them into the weights folder.
 
 - **License Plate Recognition:**
-  - Gather your own dataset of images of pure license plates and put them in folder !@#$%.
-  - image size must be 94X24
-  - rename each image to the license plate characters (e.g., ABC1234.jpg)
-  - run 'LPRNet/data/preprocess.py' to prepare the dataset
-  - run 'LPRNet/LPRNet_Train.py' for training
+  - Gather your own dataset of images of pure license plates and put them in folder 'License_Plate_Recognition_Dataset'.
+  - Image size must be 94X24.
+  - Rename each image to the license plate characters (e.g., ABC1234.jpg).
+  - Run 'LPRNet/data/preprocess.py' to prepare the dataset.
+  - Run 'LPRNet/LPRNet_Train.py' for training.
 
 ---
 
@@ -143,3 +144,5 @@ For questions or suggestions, feel free to reach out to the project team:
 - **Thamer Alghonaim**: thamer.alghonaim@gmail.com
 - **Muhannad Alsultan**: muhannad.a.alsultan@gmai.com
 - **Faisal Alasakakir**: alsakakir.faisal@gmail.com
+- **Bander Alwazzan**: Banrwazzan@gmail.com
+- **Abdullah Alhassan**: alhassan.14x@gmail.com
